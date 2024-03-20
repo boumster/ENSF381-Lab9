@@ -1,3 +1,14 @@
+"""
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Name : lab9_exe_C . py
+Assignment : Lab 9 , Exercise C
+Author ( s ) : Phoenix Bouma, Victor Gouttin
+Submission : Mar 20, 2024
+Description : Fetch data by Python .
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+"""
+
+
 import requests
 import json
 
