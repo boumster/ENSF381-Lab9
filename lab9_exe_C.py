@@ -20,7 +20,7 @@ def search_product(products, name):
     # Iterate through the products list and check if the product name exists
     for product in products:
         # if the product name exists, print the product name and price
-        if product['title'] == name:
+        if product['title'].lower() == name.lower():
             print(f"{product['title']} - {product['price']}")
             return
     # After it iterate through the entire list, if the item is not found, print the message
