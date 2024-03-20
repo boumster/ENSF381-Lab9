@@ -32,9 +32,9 @@ def search_product(products, name):
     for product in products:
         # if the product name exists, print the product name and price
         if product['title'].lower() == name.lower():
-            print(f"{product['title']} - {product['price']}")
+            print(json.dumps(product, indent=4))
             return
-    # After it iterate through the entire list, if the item is not found, print the message
+    # After it iterates through the entire list, if the item is not found, print the message
     print(f"Product {name} not found")
 
 def main():
